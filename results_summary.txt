@@ -1,0 +1,136 @@
+##########################
+CNN output log
+
+Epoch 1/10
+2019-12-15 21:53:30.991071: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.1569 - accuracy: 0.9591 - val_loss: 0.0046 - val_accuracy: 0.9799
+Epoch 2/10
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0489 - accuracy: 0.9852 - val_loss: 0.0021 - val_accuracy: 0.9825
+Epoch 3/10
+1875/1875 [==============================] - 11s 6ms/step - loss: 0.0347 - accuracy: 0.9891 - val_loss: 0.0041 - val_accuracy: 0.9822
+Epoch 4/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0268 - accuracy: 0.9920 - val_loss: 0.0071 - val_accuracy: 0.9842
+Epoch 5/10
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0219 - accuracy: 0.9933 - val_loss: 0.0120 - val_accuracy: 0.9764
+Epoch 6/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0168 - accuracy: 0.9947 - val_loss: 7.3590e-05 - val_accuracy: 0.9900
+Epoch 7/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0145 - accuracy: 0.9956 - val_loss: 6.8210e-04 - val_accuracy: 0.9936
+Epoch 8/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0133 - accuracy: 0.9959 - val_loss: 1.6336e-04 - val_accuracy: 0.9902
+Epoch 9/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0097 - accuracy: 0.9967 - val_loss: 7.1237e-04 - val_accuracy: 0.9923
+Epoch 10/10
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0086 - accuracy: 0.9973 - val_loss: 5.6414e-04 - val_accuracy: 0.9901
+dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
+Test accuracy for plain:  0.9901000261306763
+Test accuracy for scaled:  0.6067000031471252
+
+##########################
+
+##########################
+DF_CNN output log
+1875/1875 [==============================] - 109s 58ms/step - loss: 0.6251 - accuracy: 0.8135 - val_loss: 0.0989 - val_accuracy: 0.8757
+Epoch 2/20
+1875/1875 [==============================] - 110s 58ms/step - loss: 0.4250 - accuracy: 0.8678 - val_loss: 0.1074 - val_accuracy: 0.8976
+Epoch 3/20
+1875/1875 [==============================] - 110s 59ms/step - loss: 0.3555 - accuracy: 0.8906 - val_loss: 0.0834 - val_accuracy: 0.9143
+Epoch 4/20
+1875/1875 [==============================] - 112s 59ms/step - loss: 0.3203 - accuracy: 0.9030 - val_loss: 0.1777 - val_accuracy: 0.9215
+Epoch 5/20
+1875/1875 [==============================] - 110s 59ms/step - loss: 0.2983 - accuracy: 0.9101 - val_loss: 0.1365 - val_accuracy: 0.9233
+Epoch 6/20
+1875/1875 [==============================] - 107s 57ms/step - loss: 0.2881 - accuracy: 0.9119 - val_loss: 0.0165 - val_accuracy: 0.9322
+Epoch 7/20
+1875/1875 [==============================] - 110s 59ms/step - loss: 0.2740 - accuracy: 0.9174 - val_loss: 0.0334 - val_accuracy: 0.9333
+Epoch 8/20
+1875/1875 [==============================] - 111s 59ms/step - loss: 0.2722 - accuracy: 0.9171 - val_loss: 0.0162 - val_accuracy: 0.9350
+Epoch 9/20
+1875/1875 [==============================] - 110s 58ms/step - loss: 0.2619 - accuracy: 0.9208 - val_loss: 0.0520 - val_accuracy: 0.9325
+Epoch 10/20
+1875/1875 [==============================] - 110s 59ms/step - loss: 0.2576 - accuracy: 0.9216 - val_loss: 0.0143 - val_accuracy: 0.9352
+Epoch 11/20
+1875/1875 [==============================] - 112s 60ms/step - loss: 0.2521 - accuracy: 0.9232 - val_loss: 0.0292 - val_accuracy: 0.9356
+Epoch 12/20
+1875/1875 [==============================] - 113s 60ms/step - loss: 0.2470 - accuracy: 0.9249 - val_loss: 0.0263 - val_accuracy: 0.9424
+Epoch 13/20
+1875/1875 [==============================] - 110s 59ms/step - loss: 0.2408 - accuracy: 0.9269 - val_loss: 0.0113 - val_accuracy: 0.9444
+Epoch 14/20
+1875/1875 [==============================] - 111s 59ms/step - loss: 0.2413 - accuracy: 0.9257 - val_loss: 0.0066 - val_accuracy: 0.9360
+Epoch 15/20
+1875/1875 [==============================] - 112s 60ms/step - loss: 0.2401 - accuracy: 0.9269 - val_loss: 0.0761 - val_accuracy: 0.9449
+Epoch 16/20
+1875/1875 [==============================] - 115s 61ms/step - loss: 0.2363 - accuracy: 0.9269 - val_loss: 0.0442 - val_accuracy: 0.9409
+Epoch 17/20
+1875/1875 [==============================] - 112s 60ms/step - loss: 0.2352 - accuracy: 0.9277 - val_loss: 0.0417 - val_accuracy: 0.9413
+Epoch 18/20
+1875/1875 [==============================] - 112s 60ms/step - loss: 0.2359 - accuracy: 0.9268 - val_loss: 0.0541 - val_accuracy: 0.9419
+Epoch 19/20
+1875/1875 [==============================] - 112s 60ms/step - loss: 0.2351 - accuracy: 0.9278 - val_loss: 0.0357 - val_accuracy: 0.9442
+Epoch 20/20
+1875/1875 [==============================] - 114s 61ms/step - loss: 0.2308 - accuracy: 0.9286 - val_loss: 0.0666 - val_accuracy: 0.9402
+
+Test accuracy of deformable convolution with scaled images 0.9412000179290771
+Test accuracy of deformable convolution with regular images 0.9610999822616577
+
+#########################
+
+#########################
+ResNet output log
+
+Epoch 1/10
+2019-12-15 21:57:10.530208: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+1875/1875 [==============================] - 6s 3ms/step - loss: 2.1209 - accuracy: 0.2493 - val_loss: 1.8849 - val_accuracy: 0.3402
+Epoch 2/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 1.8233 - accuracy: 0.3929 - val_loss: 1.6064 - val_accuracy: 0.4573
+Epoch 3/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 1.5155 - accuracy: 0.5448 - val_loss: 1.3087 - val_accuracy: 0.6331
+Epoch 4/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 1.2010 - accuracy: 0.6963 - val_loss: 0.9635 - val_accuracy: 0.7409
+Epoch 5/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.9227 - accuracy: 0.7819 - val_loss: 0.8027 - val_accuracy: 0.7726
+Epoch 6/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.7190 - accuracy: 0.8292 - val_loss: 1.1643 - val_accuracy: 0.6177
+Epoch 7/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.5761 - accuracy: 0.8634 - val_loss: 0.7138 - val_accuracy: 0.7572
+Epoch 8/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.4788 - accuracy: 0.8855 - val_loss: 0.3972 - val_accuracy: 0.8872
+Epoch 9/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.4076 - accuracy: 0.9026 - val_loss: 0.5655 - val_accuracy: 0.7872
+Epoch 10/10
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.3586 - accuracy: 0.9138 - val_loss: 0.2791 - val_accuracy: 0.9235
+dict_keys(['val_loss', 'val_accuracy', 'loss', 'accuracy'])
+Test accuracy for plain:  0.9235000014305115
+Test accuracy for scaled:  0.4957999885082245
+
+############################
+
+
+############################
+
+DF_ResNet output log
+
+Epoch 1/10
+1873/1875 [============================>.] - ETA: 0s - loss: 2.2593 - accuracy: 0.1962
+1875/1875 [==============================] - 51s 27ms/step - loss: 2.2592 - accuracy: 0.1962 - val_loss: 2.1818 - val_accuracy: 0.2574
+Epoch 2/10
+1875/1875 [==============================] - 48s 26ms/step - loss: 2.1343 - accuracy: 0.2629 - val_loss: 1.9952 - val_accuracy: 0.2842
+Epoch 3/10
+1875/1875 [==============================] - 49s 26ms/step - loss: 1.9705 - accuracy: 0.2984 - val_loss: 1.8238 - val_accuracy: 0.3260
+Epoch 4/10
+1875/1875 [==============================] - 48s 26ms/step - loss: 1.8339 - accuracy: 0.3340 - val_loss: 1.7011 - val_accuracy: 0.3489
+Epoch 5/10
+1875/1875 [==============================] - 48s 26ms/step - loss: 1.7354 - accuracy: 0.3711 - val_loss: 1.6063 - val_accuracy: 0.3789
+Epoch 6/10
+1875/1875 [==============================] - 48s 26ms/step - loss: 1.6583 - accuracy: 0.4092 - val_loss: 1.5078 - val_accuracy: 0.4456
+Epoch 7/10
+1875/1875 [==============================] - 50s 26ms/step - loss: 1.5819 - accuracy: 0.4497 - val_loss: 1.4673 - val_accuracy: 0.4604
+Epoch 8/10
+1875/1875 [==============================] - 48s 26ms/step - loss: 1.5049 - accuracy: 0.4779 - val_loss: 1.3409 - val_accuracy: 0.4973
+Epoch 9/10
+1875/1875 [==============================] - 50s 27ms/step - loss: 1.4422 - accuracy: 0.4979 - val_loss: 1.4372 - val_accuracy: 0.4628
+Epoch 10/10
+1875/1875 [==============================] - 49s 26ms/step - loss: 1.3880 - accuracy: 0.5145 - val_loss: 1.5132 - val_accuracy: 0.4243
+
+Test accuracy of deformable convolution with scaled images 0.131400004029274
+Test accuracy of deformable convolution with regular images 0.4242999851703644
